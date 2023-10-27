@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            background-color: rgb(109, 189, 169);
+        }
+    </style>
+</head>
+<body>
+    <h1><center>Exam <span style="color: blue;">Application Form</span></center></h1>
+    <form action="#">
+        <fieldset>
+            <legend>Persinal Details</legend>
+            <label for="text">Name:</label>
+            <input type="text" name="name">
+            <table>
+                <tr>
+                   <td style="padding-bottom: 85px;"> <label for="Address">Address:</label><br></td>
+                    <td><textarea rows="6" cols="50"></textarea></td>
+                </tr>
+            </table>
+            <label for="gender">Gender:</label>
+            <input type="text" name="male">
+        </fieldset>
+        <fieldset>
+            <legend>Education Details</legend>
+            <label for="10th Level">10th level:</label>
+            <input type="text" name="10th level">
+            <label for="board">Board</label>
+            <select name="board">
+                <option value="kerala">kerala</option>
+                <option value="cbsc">CBsc</option>
+                <option value="tamil nadu">tamil nadu</option>
+            </select>
+            <br><br>
+            <label for="12th Level">12th level:</label>
+            <input type="text" name="12th level">
+            <label for="board">Board</label>
+            <select name="board">
+                <option value="kerala">kerala</option>
+                <option value="cbsc">CBSC</option>
+                <option value="tamil nadu">tamil nadu</option>
+            </select>
+            <br><br>
+            <label for="Degree">Degree:</label>
+            <input type="text" name="Degree">
+            <label for="board">Univercity</label>
+            <select name="board">
+                <option value="kerala">kerala</option>
+                <option value="cbsc">Calicut</option>
+                <option value="tamil nadu">tamil nadu</option>
+            </select>
+            <br><br>
+        </fieldset>
+        <p>Languages:</p>
+         <input type="checkbox">
+         <label for="Malayalam">Malayalam</label><br>
+         <input type="checkbox">
+         <label for="eng">English</label><br>
+         <input type="checkbox">
+         <label for="Hindi">Hindi</label>
+        <br><br>
+        <p>favorite color:</p>
+        <input type="radio">
+        <label for="html">Orange</label><br>
+        <input type="radio">
+        <label for="black">black</label><br>
+        <input type="radio">
+        <label for="javascript">blue</label>
+        <br><br>
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>
